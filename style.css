@@ -3,10 +3,31 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
+@font-face {
+  font-family: poppin-bold;
+  src: url(font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppin-light;
+  src: url(font/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppin-medium;
+  src: url(font/Poppins/Poppins-Medium.ttf);
+}
+.font-bold{
+  font-family: poppin-bold;
+}
+.font-light{
+  font-family: poppin-light;
+}
+.font-medium{
+  font-family: poppin-medium;
+}
 .top-contact{
     display: flex;
     justify-content: space-between;
+    font-family: poppin-light;
 }
 .top-contact a{
     text-decoration: none;
@@ -23,19 +44,20 @@ body{
     align-items: center;
     display: flex;
     /* color: white; */
+    font-family: poppin-bold;
   }
   .logo a {
-    font-weight: bold;
+    font-weight: bold; 
     font-size: 1.2em;
   }
   .my-nav-items {
     font-size: 1.2em;
     color: white !important;
-    font-weight: bold;
     justify-content: end;
   }
   .my-nav-items ul {
     align-items: center;
+    font-weight: bold;
   }
 
   .carousel-caption {

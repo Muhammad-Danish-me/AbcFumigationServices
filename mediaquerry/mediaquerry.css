@@ -3,3 +3,8 @@
         display: none;
     }
 } 
+@media only screen and (max-width: 991px){
+    .margin{
+        margin-top: 25px;
+    }
+}
