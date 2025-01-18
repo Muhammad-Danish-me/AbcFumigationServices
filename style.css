@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.top-contact a{
+    text-decoration: none;
+    color: black;
+}
+.top-contact a:hover{
+    text-decoration: underline;
+}
+.bg-color{
+    background-color: #66ad69;
+}
+.my-nav {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    /* color: white; */
+  }
+  .logo a {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .my-nav-items {
+    font-size: 1.2em;
+    color: white !important;
+    font-weight: bold;
+    justify-content: end;
+  }
+  .my-nav-items ul {
+    align-items: center;
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 10px;
+    border-radius: 5px;
+  }
