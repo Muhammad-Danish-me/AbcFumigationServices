@@ -1,7 +1,7 @@
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 @font-face {
   font-family: poppin-bold;
@@ -15,53 +15,77 @@ body{
   font-family: poppin-medium;
   src: url(font/Poppins/Poppins-Medium.ttf);
 }
-.font-bold{
+.font-bold {
   font-family: poppin-bold;
 }
-.font-light{
+.font-light {
   font-family: poppin-light;
 }
-.font-medium{
+.font-medium {
   font-family: poppin-medium;
 }
-.top-contact{
-    display: flex;
-    justify-content: space-between;
-    font-family: poppin-light;
+.top-contact {
+  display: flex;
+  justify-content: space-between;
+  font-family: poppin-light;
 }
-.top-contact a{
-    text-decoration: none;
-    color: black;
+.top-contact a {
+  text-decoration: none;
+  color: black;
 }
-.top-contact a:hover{
-    text-decoration: underline;
+.top-contact a:hover {
+  text-decoration: underline;
 }
-.bg-color{
-    background-color: #66ad69;
+.bg-color {
+  background-color: #66ad69;
 }
 .my-nav {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    /* color: white; */
-    font-family: poppin-bold;
-  }
-  .logo a {
-    font-weight: bold; 
-    font-size: 1.2em;
-  }
-  .my-nav-items {
-    font-size: 1.2em;
-    color: white !important;
-    justify-content: end;
-  }
-  .my-nav-items ul {
-    align-items: center;
-    font-weight: bold;
-  }
+  width: 100%;
+  align-items: center;
+  display: flex;
+  /* color: white; */
+  font-family: poppin-bold;
+}
+.logo a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.my-nav-items {
+  font-size: 1.2em;
+  color: white !important;
+  justify-content: end;
+}
+.my-nav-items ul {
+  align-items: center;
+  font-weight: bold;
+}
 
-  .carousel-caption {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
-    padding: 10px;
-    border-radius: 5px;
-  }
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Whatsapp Link CSS */
+/* Floating WhatsApp Button */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.whatsapp-icon img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.whatsapp-icon:hover {
+  background-color: #128C7E;
+}
+

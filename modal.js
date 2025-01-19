@@ -23,3 +23,5 @@ document.querySelectorAll(".dynamic-modal").forEach((image) => {
     modal.show();
   });
 });
+
+  
