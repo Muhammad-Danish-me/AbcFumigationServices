@@ -88,11 +88,23 @@ body {
   background-color: #128C7E;
 }
 footer {
-  background-color: #0e163b;
+  background-color: #333333;
 
 }
 .copyright-sec{
-  padding: 0;
-  margin: 0;
-  
+  background-color: #333333;
+  width: 100%;
+  height: fit-content;
+  padding-top: 15px;
+  border-top: 1px solid #e88d1e;
+  padding-bottom: 5px;
+}
+.target-top{
+  padding: 5px;
+  cursor: pointer;
+  width: 30px;
+  margin: auto;
+}
+.copyright-sec .social a{
+  color: white;
 }
