@@ -72,7 +72,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25D366;
+  background-color: #25d366;
   padding: 10px;
   border-radius: 50%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -85,13 +85,12 @@ body {
   /* display: block; */
 }
 .whatsapp-icon:hover {
-  background-color: #128C7E;
+  background-color: #128c7e;
 }
 footer {
   background-color: #333333;
-
 }
-.copyright-sec{
+.copyright-sec {
   background-color: #333333;
   width: 100%;
   height: fit-content;
@@ -99,12 +98,12 @@ footer {
   border-top: 1px solid #e88d1e;
   padding-bottom: 5px;
 }
-.target-top{
+.target-top {
   padding: 5px;
   cursor: pointer;
   width: 30px;
   margin: auto;
 }
-.copyright-sec .social a{
+.copyright-sec .social a {
   color: white;
 }
