@@ -95,7 +95,13 @@
                 <a class="nav-link active" href="#">Clients</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contact Us</a>
+                <a
+                  class="nav-link active"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactModal"
+                  >Contact Us</a
+                >
               </li>
             </ul>
           </div>
@@ -393,44 +399,109 @@
     </div>
     <!-- Client section end -->
     <!-- Footer Section -->
-    <footer class="bg-dark text-light pt-4 mt-5">
+    <footer class="text-light pt-4 mt-5">
       <div class="container-xxl">
-        <div class="row text-center w-100">
-          <!-- Contact Information -->
-          <div class="col-md-6">
-            <address>
-              <h5 class="font-bold">Contact Information</h5>
-              <p>Phone: <a href="">03353482478</a></p>
-              <p>Email: <a href="">abcservices@gmail.com</a></p>
-              <p>
-                Address: P. NO.LS 1, Shop No-3, Sector U Gulshan-e-Maymar,
-                Karachi, Karachi City, Sindh 75340
-              </p>
-            </address>
-          </div>
-          
+        <div class="row text-center">
           <!-- Google Map (Embedded) -->
-          <div class="col-md-6">
+          <div class="col-md-6 mt-1">
             <h5 class="font-bold">Our Location</h5>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.97017298258342!2d67.11697346265284!3d25.016327244165076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3471c81a52e83%3A0x30b447ada357b754!2sABC%20Services!5e0!3m2!1sen!2s!4v1737303075808!5m2!1sen!2s"
               style="border: 0"
               allowfullscreen=""
+              width="250"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              width="250"
             ></iframe>
+          </div>
+          <!-- Contact Information -->
+          <div class="col-md-6 mt-1">
+            <address>
+              <h5 class="font-bold">Contact Information</h5>
+              <p class="font-medium">
+                Phone: <a class="text-light" href="">03353482478</a>
+              </p>
+              <p class="font-medium">
+                Email: <a class="text-light" href="">abcservices@gmail.com</a>
+              </p>
+              <p class="font-medium">
+                Address: P. NO.LS 1, Shop No-3, Sector U Gulshan-e-Maymar,
+                Karachi, Karachi City, Sindh 75340
+              </p>
+            </address>
           </div>
         </div>
       </div>
-       <!-- Copyright -->
-       <div class="text-center mt-3 bg-secondary">
+    </footer>
+    <!-- <div class="copyright-sec">
+      <div class="bg-dark font-medium text-center mt-3 copyright-sec">
         <p>&copy; 2025 ABC Fumigation Services. All rights reserved.</p>
       </div>
-    </footer>
+    </div> -->
     <!-- Footer end -->
+    <!-- contact us Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullName"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="service" class="form-label">Service</label>
+                <select class="form-select" id="service" required>
+                  <option selected disabled>Select a service</option>
+                  <option value="Termite Proofing">Termite Proofing</option>
+                  <option value="Bedbug Treatment">Bedbug Treatment</option>
+                  <option value="Rat Control">Rat Control</option>
+                  <option value="Tank Cleaning">Tank Cleaning</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phoneNumber"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Send to WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact us modal -->
     <!-- Custom js  -->
     <script src="modal.js"></script>
+    <script src="contact.js"></script>
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>

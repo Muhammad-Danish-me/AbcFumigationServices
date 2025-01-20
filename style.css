@@ -82,9 +82,17 @@ body {
 .whatsapp-icon img {
   width: 50px;
   height: 50px;
-  display: block;
+  /* display: block; */
 }
-
 .whatsapp-icon:hover {
   background-color: #128C7E;
+}
+footer {
+  background-color: #0e163b;
+
+}
+.copyright-sec{
+  padding: 0;
+  margin: 0;
+  
 }
