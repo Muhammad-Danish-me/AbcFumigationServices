@@ -345,57 +345,109 @@
     </div>
     <!-- Services Section End -->
     <!-- CLient Section start -->
-    <div class="container-xxl" id="targetClients">
-      <div class="client-sec mt-5">
-        <div class="top">
-          <h2 class="text-center font-bold h1">
-            <i class="fa-brands fa-xing"></i> Clients
-          </h2>
-        </div>
-        <!-- Clients -->
-        <div class="mt-4">
-          <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="card border-light shadow-sm">
-                <img
-                  src="images/clients/Habib-Asset-Management.png"
-                  class="card-img-top p-2"
-                  alt="Image 1"
-                />
+    <div class="container-xxl my-5">
+      <div class="top">
+        <h2 class="text-center font-bold h1">
+          <i class="fa-brands fa-xing"></i> Clients
+        </h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <!-- Carousel Wrapper -->
+          <div
+            id="clientCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="3000"
+          >
+            <!-- Carousel Content -->
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-between align-items-center">
+                  <img
+                    src="images/clients/Habib-Asset-Management.png"
+                    class="img-fluid client-logo"
+                    alt="Client 1"
+                  />
+                  <img
+                    src="images/clients/Habib-Metropolitan-Bank.png"
+                    class="img-fluid client-logo"
+                    alt="Client 2"
+                  />
+                  <img
+                    src="images/clients/Ismail-Industries-Limited.png"
+                    class="img-fluid client-logo"
+                    alt="Client 3"
+                  />
+                  <img
+                    src="images/clients/Lucky-Electric.png"
+                    class="img-fluid client-logo"
+                    alt="Client 4"
+                  />
+                  <img
+                    src="images/clients/Habib-Asset-Management.png"
+                    class="img-fluid client-logo"
+                    alt="Client 5"
+                  />
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="d-flex justify-content-between align-items-center">
+                  <img
+                    src="images/clients/Habib-Metropolitan-Bank.png"
+                    class="img-fluid client-logo"
+                    alt="Client 6"
+                  />
+                  <img
+                    src="images/clients/Ismail-Industries-Limited.png"
+                    class="img-fluid client-logo"
+                    alt="Client 7"
+                  />
+                  <img
+                    src="images/clients/Lucky-Electric.png"
+                    class="img-fluid client-logo"
+                    alt="Client 8"
+                  />
+                  <img
+                    src="images/clients/Habib-Asset-Management.png"
+                    class="img-fluid client-logo"
+                    alt="Client 9"
+                  />
+                  <img
+                    src="images/clients/Ismail-Industries-Limited.png"
+                    class="img-fluid client-logo"
+                    alt="Client 10"
+                  />
+                </div>
               </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="card border-light shadow-sm">
-                <img
-                  src="images/clients/Habib-Metropolitan-Bank.png"
-                  class="card-img-top p-2"
-                  alt="Image 2"
-                />
-              </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="card border-light shadow-sm">
-                <img
-                  src="images/clients/Ismail-Industries-Limited.png"
-                  class="card-img-top p-2"
-                  alt="Image 3"
-                />
-              </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col-md-3 col-sm-6 col-12">
-              <div class="card border-light shadow-sm">
-                <img
-                  src="images/clients/Lucky-Electric.png"
-                  class="card-img-top p-2"
-                  alt="Image 4"
-                />
-              </div>
-            </div>
+            <!-- Carousel Controls -->
+            <button
+              class="carousel-control-prev custom-indicator"
+              type="button"
+              data-bs-target="#clientCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next custom-indicator"
+              type="button"
+              data-bs-target="#clientCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
@@ -406,26 +458,52 @@
       <div class="container-xxl">
         <div class="row text-center">
           <!-- Google Map (Embedded) -->
-          <div class="col-md-6 mt-1">
+          <div class="col-lg-3 col-md-6 mt-1 .pad-footer">
             <h5 class="font-bold">Our Location</h5>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.97017298258342!2d67.11697346265284!3d25.016327244165076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3471c81a52e83%3A0x30b447ada357b754!2sABC%20Services!5e0!3m2!1sen!2s!4v1737303075808!5m2!1sen!2s"
               style="border: 0"
               allowfullscreen=""
-              width="230"
+              width="100%"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+
+          <!-- Services Section -->
+          <div class="col-lg-3 col-md-6 mt-1 pad-footer">
+            <h5 class="font-bold">Our Services</h5>
+            <ul class="list-unstyled">
+              <li><a class="text-light" href="#">Pest Control</a></li>
+              <li><a class="text-light" href="#">Fumigation</a></li>
+              <li><a class="text-light" href="#">Termite Treatment</a></li>
+              <li><a class="text-light" href="#">Sanitization</a></li>
+            </ul>
+          </div>
+
+          <!-- Head Office Address -->
+          <div class="col-lg-3 col-md-6 mt-1 padding-footer">
+            <h5 class="font-bold">Head Office</h5>
+            <p class="font-medium">
+              ABC Services <br />
+              P. NO.LS 1, Shop No-3, Sector U Gulshan-e-Maymar, Karachi <br />
+              Karachi City, Sindh 75340
+            </p>
+          </div>
+
           <!-- Contact Information -->
-          <div class="col-md-6 mt-1">
+          <div class="col-lg-3 col-md-6 mt-1 padding-footer">
             <address>
               <h5 class="font-bold">Contact Information</h5>
               <p class="font-medium">
-                Phone: <a class="text-light" href="">03353482478</a>
+                Phone:
+                <a class="text-light" href="tel:03353482478">03353482478</a>
               </p>
               <p class="font-medium">
-                Email: <a class="text-light" href="">abcservices@gmail.com</a>
+                Email:
+                <a class="text-light" href="mailto:abcservices@gmail.com"
+                  >abcservices@gmail.com</a
+                >
               </p>
               <p class="font-medium">
                 Address: P. NO.LS 1, Shop No-3, Sector U Gulshan-e-Maymar,
@@ -436,7 +514,7 @@
         </div>
       </div>
     </footer>
-    <!-- copyright section -->
+    <!-- Copyright Section -->
     <div class="copyright-sec text-center">
       <div class="target-top text-light h3 pe-auto">
         <a class="text-light" href="#top"
@@ -448,13 +526,14 @@
       </div>
       <div class="social d-flex gap-3 justify-content-center">
         <div class="facebook">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
         <div class="instagram">
-          <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
         </div>
       </div>
     </div>
+
     <!-- Footer end -->
     <!-- contact us Modal -->
     <div

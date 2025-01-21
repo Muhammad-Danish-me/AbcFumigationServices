@@ -7,4 +7,12 @@
     .margin{
         margin-top: 25px;
     }
+    .padding-footer{
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .pad-footer{
+        padding-top: 30px;
+    }
 }
