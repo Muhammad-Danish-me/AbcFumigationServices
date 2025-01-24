@@ -250,97 +250,53 @@
             eliminating insects, rodents, and other pests.
           </p>
         </div>
-        <!-- Services Section -->
-        <div class="services-sec text-center row g-4 mt-3">
-          <!-- Image 1 -->
-          <div class="col-md-3">
-            <img
-              src="images/services/termite-1.webp"
-              class="img-fluid rounded dynamic-modal"
-              alt="Termite Proofing Treatment"
-              data-title="Termite Proofing Treatment"
-              data-description="Our Termite Proofing Treatment Service provides reliable protection against termite infestations for residential and commercial properties. We offer pre-construction soil treatments and post-construction solutions, including chemical barriers, bait systems, and wood treatments. Using safe and effective termiticides, our licensed professionals ensure long-lasting protection, preserving the structural integrity of your property. Trust us for eco-friendly, cost-effective, and guaranteed termite control."
-              style="cursor: pointer"
-            />
-          </div>
+      </div>
+    </div>
+    <!-- Services Section -->
+    <div class="container mt-5">
+      <!-- Card Rows Will Be Dynamically Added Here -->
+      <div id="card-container"></div>
+    </div>
 
-          <!-- Image 2 -->
-          <div class="col-md-3">
-            <img
-              src="images/services/BEDBUGS-1.webp"
-              class="img-fluid rounded dynamic-modal"
-              alt="Bedbug Treatment Service"
-              data-title="Bedbug Treatment Service"
-              data-description="Our Bedbug Treatment Service provides effective solutions to eliminate bedbug infestations from homes and businesses. We use advanced techniques, including heat treatments and safe insecticides, to target bedbugs at all life stages. Our trained professionals ensure thorough inspection, treatment, and prevention measures for long-term relief. Trust us to restore comfort and hygiene to your space."
-              style="cursor: pointer"
-            />
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="cardModal"
+      tabindex="-1"
+      aria-labelledby="modalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle">Modal Title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-
-          <!-- Image 3 -->
-          <div class="col-md-3">
-            <img
-              src="images/services/RATS-1.webp"
-              class="img-fluid rounded dynamic-modal"
-              alt="Rat Control Service"
-              data-title="Rat Control Service"
-              data-description="Our Rat Control Service offers reliable solutions to eliminate rats from residential and commercial properties. We use safe and effective methods, including baiting, trapping, and exclusion techniques, to remove infestations and prevent re-entry. Our experts ensure a clean, rodent-free environment, protecting your property and health."
-              style="cursor: pointer"
-            />
+          <div class="modal-body">
+            <p id="modalDescription">Modal description goes here.</p>
           </div>
-          <!-- Image 4 -->
-          <div class="col-md-3">
-            <img
-              src="images/services/tank-1.webp"
-              class="img-fluid rounded dynamic-modal"
-              alt="Tank Cleaning Service"
-              data-title="Tank Cleaning Service"
-              data-description="Our Tank Cleaning Service ensures clean and safe water storage by thoroughly cleaning and disinfecting water tanks. We use advanced techniques to remove dirt, algae, and harmful contaminants, ensuring hygienic water for homes and businesses. Trust us for efficient, reliable, and eco-friendly tank cleaning solutions."
-              style="cursor: pointer"
-            />
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              id="contactUsBtn"
+              href="#"
+              target="_blank"
+              class="btn btn-success"
+              >Contact Us on WhatsApp</a
+            >
           </div>
         </div>
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="dynamicModal"
-          tabindex="-1"
-          aria-labelledby="dynamicModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="dynamicModalLabel"></h5>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="modal-body">
-                <p id="modalDescription"></p>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Close
-                </button>
-                <a
-                  href="#"
-                  id="whatsappLink"
-                  class="btn btn-primary"
-                  target="_blank"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Modal End -->
       </div>
     </div>
     <!-- Services Section End -->
@@ -593,6 +549,7 @@
     </div>
     <!-- contact us modal End -->
     <!-- Custom js  -->
+    <script src="app.js"></script>
     <script src="modal.js"></script>
     <script src="contact.js"></script>
     <!-- Bootstrap JS Bundle -->

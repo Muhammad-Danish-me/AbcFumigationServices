@@ -129,3 +129,20 @@ footer {
     border-radius: 50%;
   }
 
+/* Hover effect: Add shadow on hover */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon size */
+.card i {
+  font-size: 50px;
+  color: #007bff;
+}
+
+/* Short description style */
+.short-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
