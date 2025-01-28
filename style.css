@@ -107,27 +107,25 @@ footer {
   color: white;
 }
 
+.client-logo {
+  max-width: 150px;
+  max-height: 80px;
+  object-fit: contain;
+  margin: 0 10px;
+}
 
+@media (max-width: 768px) {
   .client-logo {
-    max-width: 150px;
-    max-height: 80px;
-    object-fit: contain;
-    margin: 0 10px;
+    max-width: 100px;
+    max-height: 60px;
   }
+}
 
-  @media (max-width: 768px) {
-    .client-logo {
-      max-width: 100px;
-      max-height: 60px;
-    }
-  }
-
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: #343a40; 
-    border-radius: 50%;
-  }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #343a40;
+  border-radius: 50%;
+}
 
 /* Hover effect: Add shadow on hover */
 .card:hover {

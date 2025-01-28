@@ -4,7 +4,7 @@ const cards = [
     image: "images/services/pest_control_main.png",
     title: "PEST CONTROL",
     fullText:
-      "This is a detailed description of card 1. It has a lot of information about the topic covered by this card.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere consequuntur quidem, obcaecati provident quos, maxime modi praesentium, corrupti quisquam non ea eaque! Nobis possimus iure ex itaque nam inventore eveniet numquam, laboriosam sunt velit veritatis sit earum non similique rem deserunt deleniti! Ipsa, itaque. Officiis qui quod repellat atque vel possimus minima, sapiente, consequuntur, perferendis dolore expedita nam libero necessitatibus soluta aut. Nemo quidem dolorum perferendis officiis harum modi eum est dolor eaque accusantium blanditiis ad, iusto recusandae quia, voluptas itaque autem sint fugit ullam tempora! Laboriosam, repellat dolores. Sint beatae impedit blanditiis odit libero accusamus repellat eum quod",
+      "This is a detailed description of card 1. It has a lot of information about the topic covered by this card.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere consequuntur quidem, obcaecati provident quos, maxime modi praesentium, corrupti quisquam non ea eaque!",
   },
   {
     image: "images/services/cleaning_main.png",
@@ -13,13 +13,13 @@ const cards = [
       "This is a detailed description of card 2. This card explains the topic in depth with useful details.",
   },
   {
-    image: "images/services/gardening_main.png", 
+    image: "images/services/gardening_main.png",
     title: "GARDENING",
     fullText:
       "This is a detailed description of card 3. It provides insights and information about the topic.",
   },
   {
-    image: "images/services/repair.png", 
+    image: "images/services/repair.png",
     title: "REPAIR & MAINTENANCE",
     fullText:
       "This is a detailed description of card 4. It explores new ideas and useful information for the reader.",
@@ -38,7 +38,7 @@ function generateCards() {
       const shortText = cards[j].fullText.substring(0, 50) + "...";
 
       const card = `
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6 p-1">
                     <div class="card">
                         <div class="card-body text-center">
                             <img src="${cards[j].image}" alt="${cards[j].title}" class="img-fluid rounded" style="max-height: 150px;">
@@ -75,3 +75,4 @@ function showModal(title, description) {
 
 // Call the function to generate cards
 generateCards();
+
