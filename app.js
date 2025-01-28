@@ -1,52 +1,28 @@
 // Array of card data
 const cards = [
   {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 1",
+    image: "images/services/pest_control_main.png",
+    title: "PEST CONTROL",
     fullText:
       "This is a detailed description of card 1. It has a lot of information about the topic covered by this card.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facere consequuntur quidem, obcaecati provident quos, maxime modi praesentium, corrupti quisquam non ea eaque! Nobis possimus iure ex itaque nam inventore eveniet numquam, laboriosam sunt velit veritatis sit earum non similique rem deserunt deleniti! Ipsa, itaque. Officiis qui quod repellat atque vel possimus minima, sapiente, consequuntur, perferendis dolore expedita nam libero necessitatibus soluta aut. Nemo quidem dolorum perferendis officiis harum modi eum est dolor eaque accusantium blanditiis ad, iusto recusandae quia, voluptas itaque autem sint fugit ullam tempora! Laboriosam, repellat dolores. Sint beatae impedit blanditiis odit libero accusamus repellat eum quod",
   },
   {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 2",
+    image: "images/services/cleaning_main.png",
+    title: "CLEANING/SANITATION",
     fullText:
       "This is a detailed description of card 2. This card explains the topic in depth with useful details.",
   },
   {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 3",
+    image: "images/services/gardening_main.png", 
+    title: "GARDENING",
     fullText:
       "This is a detailed description of card 3. It provides insights and information about the topic.",
   },
   {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 4",
+    image: "images/services/repair.png", 
+    title: "REPAIR & MAINTENANCE",
     fullText:
-      "This is a detailed description of card 4. It explores new ideas and useful information for the reader .",
-  },
-  {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 4",
-    fullText:
-      "This is a detailed description of card 4. It explores new ideas and useful information for the reader .",
-  },
-  {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 4",
-    fullText:
-      "This is a detailed description of card 4. It explores new ideas and useful information for the reader .",
-  },
-  {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 4",
-    fullText:
-      "This is a detailed description of card 4. It explores new ideas and useful information for the reader .",
-  },
-  {
-    icon: "fa-brands fa-xing",
-    title: "Card Title 4",
-    fullText:
-      "This is a detailed description of card 4. It explores new ideas and useful information for the reader .",
+      "This is a detailed description of card 4. It explores new ideas and useful information for the reader.",
   },
 ];
 
@@ -65,7 +41,7 @@ function generateCards() {
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-body text-center">
-                            <i class="${cards[j].icon}"></i>
+                            <img src="${cards[j].image}" alt="${cards[j].title}" class="img-fluid rounded" style="max-height: 150px;">
                             <h5 class="card-title mt-3">${cards[j].title}</h5>
                             <p class="card-text short-text">${shortText}</p>
                             <button class="btn btn-primary" onclick="showModal('${cards[j].title}', '${cards[j].fullText}')">Learn More</button>
